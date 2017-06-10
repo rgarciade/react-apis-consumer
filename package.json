@@ -8,7 +8,7 @@
     "start": "webpack && node built/server/index.js"
   },
   "keywords": [],
-  "author": "Raulgarciade",
+  "author": "rgarciade",
   "license": "ISC",
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
