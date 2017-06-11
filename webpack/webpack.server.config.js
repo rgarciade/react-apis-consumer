@@ -15,7 +15,8 @@ module.exports = {
         loader: 'babel',
         exclude: /(node_modules)/,
         query: {
-          presets: ['latest-minimal', 'react']
+          presets: ['es2016','es2017', 'react'],
+          plugins: ['transform-es2015-modules-commonjs'],
         }
       }
     ]
